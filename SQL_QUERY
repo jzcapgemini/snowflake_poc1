@@ -1,0 +1,7 @@
+
+SELECT
+  *
+FROM
+  EMP_BASIC
+LIMIT
+  10;
