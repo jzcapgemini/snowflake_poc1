@@ -7,7 +7,7 @@ terraform {
     }
 }
 provider "snowflake" {
-    account = "fusvubb-ol16375"
+    account = var.snowflake_user.account
     username = var.snowflake_user.user_name
     password = var.snowflake_user.user_password
 
